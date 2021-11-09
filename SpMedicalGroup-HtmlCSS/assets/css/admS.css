@@ -29,11 +29,12 @@ main {
     color: white;
     text-shadow: 2px 2px #0000007c;
     box-shadow: inset -27px -20px 14px -22px var(--verdeEscuro);
-    transition: scale 0.3s ease-in-out;
+    transition: font-size 0.3s ease-in-out;
+    
 }
 
 .main_Selector:hover {
-    scale: 1.5;
+    font-size: 35px;
 }
 
 .main_container {
@@ -50,4 +51,21 @@ main {
 footer {
     background-color: gray;
     height: 80px;
+}
+
+.main_Selector a {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    transition: font-size 0.3s ease-in-out;
+}
+
+.main_Selector a:hover{
+    font-size: 35px;
+}
+
+.dot a {
+    display: none;
 }
